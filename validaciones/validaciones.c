@@ -5,7 +5,7 @@
 
 
 
-
+/*************************************************************************************************************************/ Enteros
 int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo, int maximo, int reintentos)
 {
 	int retorno = -1;
@@ -27,8 +27,6 @@ int utn_getNumero(int* pResultado, char* mensaje, char* mensajeError, int minimo
 
 	return retorno;
 }
-
-
 
 int myGets(char* cadena, int longitud)
 {
@@ -54,7 +52,6 @@ int myGets(char* cadena, int longitud)
 	return retorno;
 }
 
-
 int getInt(int* pResultado)
 {
     int retorno=-1;
@@ -69,7 +66,6 @@ int getInt(int* pResultado)
 	}
     return retorno;
 }
-
 
 int esNumerica(char* cadena, int limite)
 {
@@ -90,3 +86,4 @@ int esNumerica(char* cadena, int limite)
 	//BREAK
 	return retorno;
 }
+/*************************************************************************************************************************/ Enteros

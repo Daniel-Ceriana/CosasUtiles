@@ -4,6 +4,7 @@
 
 
 #endif // VALIDACIONES_H_INCLUDED
+/*************************************************************************************************************************/ Enteros
 
 /**
  * \brief Solicita un numero al usuario, leuego de verificarlo devuelve el resultado
@@ -39,3 +40,4 @@ int getInt(int* pResultado);
  *
  */
 int esNumerica(char* cadena, int limite);
+/*************************************************************************************************************************/ Enteros
